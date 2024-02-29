@@ -23,3 +23,24 @@ nav a {
   font-weight: bold;
   margin: 10px;
 }
+
+#menu {
+  text-align: center;
+}
+
+.category {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 40px;
+}
+
+.item {
+  border: solid 2px blueviolet;
+  padding: 10px;
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+}
